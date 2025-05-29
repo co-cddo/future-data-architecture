@@ -1,0 +1,32 @@
+<ul class="govuk-list">
+  <li>
+    {% if page.name == "index.md" and page.dir == "/" %}
+      Introduction
+    {% else %}
+      <a href="/">Introduction</a>
+    {% endif %}
+
+  {% assign current_dir = "" %}
+  {% for item in site.pages %}
+    {% if item.name == "index.md" and item.dir == "/" %}
+      {% continue %}
+    {% endif %}
+    {% if item.path contains ".md" %}
+      {% if item.dir != current_dir and item.dir.size > 1 %}
+        {% assign current_dir = item.dir %}
+        </ul>
+          <h2  class="govuk-heading-m">{{ current_dir | remove: "/" | capitalize }}</p>
+        <ul class="govuk-list">
+      {% endif %}
+
+      <li>
+        {% if item.path == page.path %}
+          {{ item.title }}
+        {% else %}
+          <a href="{{ item.url }}" class="govuk-link">{{ item.title }}</a>
+        {% endif %}
+      </li>
+
+    {% endif %}
+  {% endfor %}
+</ul>
