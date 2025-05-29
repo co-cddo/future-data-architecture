@@ -38,6 +38,8 @@ jobs:
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
+      - name: Load gems
+        run: bundle install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
