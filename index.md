@@ -1,12 +1,10 @@
 ---
-title: Introduction
+title: Future Data Sharing Infrastructure
 layout: default
 ---
 
-## Future Data Sharing Infrastructure
-
 This is the Future data sharing infrastructure site
 
-### Digital Backbone
+## Digital Backbone
 
 ![digital-backbone](/assets/images/digital-backbone.png)
