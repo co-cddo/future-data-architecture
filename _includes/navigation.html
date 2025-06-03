@@ -5,28 +5,26 @@
     {% else %}
       <a href="/">Introduction</a>
     {% endif %}
-
-  {% assign current_dir = "" %}
-  {% for item in site.pages %}
-    {% if item.name == "index.md" and item.dir == "/" %}
-      {% continue %}
-    {% endif %}
-    {% if item.path contains ".md" %}
-      {% if item.dir != current_dir and item.dir.size > 1 %}
-        {% assign current_dir = item.dir %}
-        </ul>
-          <h2  class="govuk-heading-m">{{ current_dir | remove: "/" | capitalize }}</p>
-        <ul class="govuk-list">
-      {% endif %}
-
-      <li>
-        {% if item.path == page.path %}
-          {{ item.title }}
-        {% else %}
-          <a href="{{ item.url }}" class="govuk-link">{{ item.title }}</a>
-        {% endif %}
-      </li>
-
-    {% endif %}
-  {% endfor %}
+  </li>
 </ul>
+
+{% assign groups = site.pages | where_exp: "item", "item.path contains '.md'" | group_by_exp: "item", "item.dir" %}
+{% for group in groups %}
+  {% if group["name"] == "/" %}
+    {% continue %}
+  {% endif %}
+  <h2  class="govuk-heading-m">{{ group["name"] | remove: "/" | capitalize }}</h2>
+  {% assign items = group["items"] | sort:"position" %}
+  <ul class="govuk-list">
+  {% for item in items %}
+    <li>
+      {% if item.path == page.path %}
+        {{ item.title }}
+      {% else %}
+        <a href="{{ item.url }}" class="govuk-link">{{ item.title }}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+
