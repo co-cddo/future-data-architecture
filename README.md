@@ -54,7 +54,7 @@ The content
 Jeykll searches this repository's files for content that it can convert into web pages.
 The main content is provided by markdown files using the extension `.md`. One
 such file being `/index.md` which is converted by Jeykll to `index.html` and if running
-locally is placed in `_site/index.html`. This becomes the sites default root page.
+locally is placed in `_site/index.html`. This becomes the site's default root page.
 
 Other content is presented in the folders `architecture` and `principles`.
 
@@ -93,3 +93,19 @@ below a heading using the folder name.
 
 The navigation code can be found at `/includes/navigation.html` and it is placed in the
 page via the default layout (`_layouts/default.html`).
+
+Images
+------
+Image files should be placed into the folder `assets/images`.
+
+To display an image within the content add a
+[link to the image](https://kramdown.gettalong.org/quickref.html#links-and-images)
+within the markdown and add an exclamation mark (`!`) at the start of the link markdown.
+
+So if there were an image at `assets/images/my_image.png`, it could be displayed within
+the page by adding this markdown:
+
+```
+![My image](assets/images/my_image.png)
+```
+Note that in this example "My image" would appear as the image's alt text.
