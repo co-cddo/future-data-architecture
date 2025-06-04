@@ -1,9 +1,10 @@
 ---
-title: Future Data Sharing Infrastructure
+title: Reference Architecture
 layout: default
 position: 4
 --- 
 
+# Future Data Sharing Infrastructure
  
 ## Layers and Aspects:
 ![digital-backbone](/assets/images/architecture/fdhi-refarch-01.png)
