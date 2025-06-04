@@ -5,6 +5,6 @@ layout: default
 
 This is the Future data sharing infrastructure site
 
-## Digital Backbone
+## Introduction
+Some text
 
-![digital-backbone](/assets/images/digital-backbone.png)
