@@ -1,0 +1,16 @@
+- title: Introduction
+  url: /
+
+- title: Architecture
+  url: /architecture/
+  children:
+    - title: Reference Architecture
+      url: /architecture/reference_architecture.html 
+
+- title: Principles
+  url: /principles/
+  children:
+    - title: Principle 1
+      url: /principles/principle_1.html
+    - title: Principle 2
+      url: /principles/principle_2.html
