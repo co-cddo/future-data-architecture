@@ -1,0 +1,20 @@
+{% assign item = site.pages | find:"path", nav_page %}
+{% if item %}
+  {% if item.navigation_label %}
+    {% assign label = item.navigation_label %}
+  {% else %}
+    {% assign label = item.title %}
+  {% endif %}
+  <li>
+    {% if item.path == page.path %}
+      {{ label }}
+    {% else %}
+      <a href="{{ item.url }}" class="govuk-link">{{ label }}</a>
+    {% endif %}
+  </li>
+{% else %}
+  <!--
+    page not found
+    {{ nav_page }}
+  -->
+{% endif %}

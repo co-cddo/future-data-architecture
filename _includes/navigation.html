@@ -1,25 +1,19 @@
-<ul class="govuk-list">
-  {% for item in site.data.navigation %}
-    <li>
-      {% if page.url == item.url %}
-        {{ item.title }}
-      {% else %}
-        <a href="{{ item.url }}" class="govuk-link">{{ item.title }}</a>
-      {% endif %}
+{% for section in site.data.navigation %}
+  <h2 class="govuk-heading-m">{{ section.section }}</h2>
 
-      {% if item.children %}
-        <ul class="govuk-list govuk-list--bullet">
-          {% for child in item.children %}
-            <li>
-              {% if page.url == child.url %}
-                {{ child.title }}
-              {% else %}
-                <a href="{{ child.url }}" class="govuk-link">{{ child.title }}</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="govuk-list govuk-list--bullet">
+    {% for nav_page in section.pages %}
+      {% include nav_item.html %}
+    {% endfor %}
+  </ul>
+
+    {% for child in section.children %}
+      <h3 class="govuk-heading-s">-> {{ child.section }}</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        {% for nav_page in child.pages %}
+          {% include nav_item.html %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+
+{% endfor %}

@@ -1,16 +1,18 @@
-- title: Introduction
-  url: /
+- section: Introduction
+  pages:
+    - index.md
 
-- title: Architecture
-  url: /architecture/
-  children:
-    - title: Reference Architecture
-      url: /architecture/reference_architecture.html 
+- section: Architecture
+  pages:
+    - architecture/index.md
+    - architecture/reference_architecture.md
 
-- title: Principles
-  url: /principles/
+- section: Principles
+  pages:
+    - principles/principle_1.md
+    - principles/principle_2.md
   children:
-    - title: Principle 1
-      url: /principles/principle_1.html
-    - title: Principle 2
-      url: /principles/principle_2.html
+    - section: Other Principles
+      pages:
+        - principles/other_principles/xx.md
+        - unknown

@@ -1,7 +1,6 @@
 ---
 title: Reference Architecture
 layout: default
-position: 4
 --- 
 
 # Future Data Sharing Infrastructure
