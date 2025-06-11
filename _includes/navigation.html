@@ -1,30 +1,19 @@
-<ul class="govuk-list">
-  <li>
-    {% if page.name == "index.md" and page.dir == "/" %}
-      Introduction
-    {% else %}
-      <a href="/">Introduction</a>
-    {% endif %}
-  </li>
-</ul>
+{% for section in site.data.navigation %}
+  <h2 class="govuk-heading-m">{{ section.section }}</h2>
 
-{% assign groups = site.pages | where_exp: "item", "item.path contains '.md'" | group_by_exp: "item", "item.dir" %}
-{% for group in groups %}
-  {% if group["name"] == "/" %}
-    {% continue %}
-  {% endif %}
-  <h2  class="govuk-heading-m">{{ group["name"] | remove: "/" | capitalize }}</h2>
-  {% assign items = group["items"] | sort:"position" %}
-  <ul class="govuk-list">
-  {% for item in items %}
-    <li>
-      {% if item.path == page.path %}
-        {{ item.title }}
-      {% else %}
-        <a href="{{ item.url }}" class="govuk-link">{{ item.title }}</a>
-      {% endif %}
-    </li>
-  {% endfor %}
+  <ul class="govuk-list govuk-list--bullet">
+    {% for nav_page in section.pages %}
+      {% include nav_item.html %}
+    {% endfor %}
   </ul>
-{% endfor %}
 
+    {% for child in section.children %}
+      <h3 class="govuk-heading-s">{{ child.section }}</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        {% for nav_page in child.pages %}
+          {% include nav_item.html %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+
+{% endfor %}

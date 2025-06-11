@@ -1,0 +1,18 @@
+- section: Introduction
+  pages:
+    - index.md
+
+- section: Architecture
+  pages:
+    - architecture/index.md
+    - architecture/reference_architecture.md
+
+- section: Principles
+  pages:
+    - principles/principle_1.md
+    - principles/principle_2.md
+  children:
+    - section: Other Principles
+      pages:
+        - principles/other_principles/xx.md
+        - unknown
