@@ -9,7 +9,7 @@ The documents are written in markdown and published on the web via Github pages:
 A github action is triggered when code is merged into main, with the result
 that any changes are published on the Github pages.
 
-Jeykll
+Jekyll
 ------
 The transformation of static markdown pages into a static website is performed
 by [Jeykll](https://jekyllrb.com/).
