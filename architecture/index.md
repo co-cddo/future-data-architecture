@@ -1,5 +1,5 @@
 ---
-title: Reference Architecture
+title: Capability Model
 layout: default
 --- 
 
