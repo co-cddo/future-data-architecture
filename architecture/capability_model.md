@@ -1,6 +1,6 @@
 ---
 title: Capability Model
-navigation_label: CM
+navigation_label: Capability M.
 layout: default
 ---
 Foo
