@@ -5,7 +5,7 @@
 - section: Architecture
   pages:
     - architecture/index.md
-    - architecture/reference_architecture.md
+    - architecture/capability_model.md
 
 - section: Principles
   pages:
