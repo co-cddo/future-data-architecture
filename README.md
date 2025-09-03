@@ -1,5 +1,5 @@
-Future Data Sharing Infrastructure
-==================================
+Future Data Architecture
+========================
 
 This repository holds documentation on future data sharing infrastructure.
 The documents are written in markdown and published on the web via Github pages:
