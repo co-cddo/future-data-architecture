@@ -1,7 +1,7 @@
-Future Data Sharing Infrastructure
+Future Data Architecture
 ==================================
 
-This repository holds documentation on future data sharing infrastructure.
+This repository holds documentation on future data architecture.
 The documents are written in markdown and published on the web via Github pages:
 
   https://supreme-adventure-e2erl4p.pages.github.io/
