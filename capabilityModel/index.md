@@ -20,3 +20,9 @@ Our approach is made up of seven building blocks. Each one focuses on a differen
 ---
 
 ![digital-backbone](/assets/images/architecture/fdhi-refarch-01.png)
+
+---
+## Setting out the Capabilities
+Each of the building blocks sets out the capabilities needed, and you can find more details about each layer.
+
+![digital-backbone](/assets/images/architecture/fdhi-refarch-02.png)
