@@ -5,13 +5,13 @@
 - section: Capability Model
   pages:
     - capabilityModel/index.md
-    - capabilityModel/Channels
-    - capabilityModel/Infrastructure
-    - capabilityModel/Data Access
-    - capabilityModel/Services
-    - capabilityModel/Governance
-    - capabilityModel/Security
-    - capabilityModel/Trust
+    - capabilityModel/Channels.md
+    - capabilityModel/Infrastructure.md
+    - capabilityModel/Data_Access.md
+    - capabilityModel/Services.md
+    - capabilityModel/Governance.md
+    - capabilityModel/Security.md
+    - capabilityModel/Trust.md
 
 - section: Principles
   pages:
