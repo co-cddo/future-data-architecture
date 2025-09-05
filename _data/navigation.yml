@@ -2,10 +2,16 @@
   pages:
     - index.md
 
-- section: Architecture
+- section: Capability Model
   pages:
-    - architecture/index.md
-    - architecture/reference_architecture.md
+    - capabilityModel/index.md
+    - capabilityModel/Channels
+    - capabilityModel/Infrastructure
+    - capabilityModel/Data Access
+    - capabilityModel/Services
+    - capabilityModel/Governance
+    - capabilityModel/Security
+    - capabilityModel/Trust
 
 - section: Principles
   pages:
