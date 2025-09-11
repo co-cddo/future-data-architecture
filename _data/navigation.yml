@@ -15,6 +15,7 @@
 
 - section: Principles
   pages:
+    - principles/Overview.md
     - principles/principle_1.md
     - principles/principle_2.md
   children:
