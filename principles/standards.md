@@ -1,5 +1,5 @@
 ---
-title: Principle Two
+title: Use common capabilities and standards
 layout: default
 ---
 
