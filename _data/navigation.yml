@@ -15,7 +15,7 @@
 
 - section: Principles
   pages:
-    - principles/Overview.md
+    - principles/0-overview.md
     - principles/1-management.md
     - principles/2-once-only.md
     - principles/3-movement.md

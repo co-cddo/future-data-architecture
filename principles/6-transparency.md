@@ -2,11 +2,11 @@
 title: 6. Be transparent
 layout: default
 ---
-### Statement
+## Statement
 
 _We are as open as possible about how our data is shared and used._
 
-### Rationale
+## Rationale
 
 Transparency—observing and disclosing information about elements of and processes within a data system—is **essential for understanding if the policies and controls of the system are having the desired effect**, and why.
 
@@ -18,7 +18,7 @@ Transparency at the level of technical infrastructure means that the impact of p
 
 Being transparent about the ways that personal data are processed and protected is a **precursor for building trust** with the public.
 
-### Implications
+## Implications
 
 **Transparency can be applied to many aspects of data sharing.** You should consider transparency measures for disclosing:
 
