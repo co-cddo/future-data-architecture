@@ -16,8 +16,15 @@
 - section: Principles
   pages:
     - principles/Overview.md
-    - principles/transparency.md
-    - principles/standards.md
+    - principles/1-management.md
+    - principles/2-once-only.md
+    - principles/3-movement.md
+    - principles/4-readability.md
+    - principles/5-standards.md
+    - principles/6-transparency.md
+    - principles/7-lawful.md
+    - principles/8-security.md
+    - principles/9-users.md
   children:
     - section: Other Principles
       pages:
