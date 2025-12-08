@@ -2,6 +2,20 @@
   pages:
     - index.md
 
+- section: Data Sharing Principles
+  pages:
+    - principles/0-overview.md
+    - principles/1-manage.md
+    - principles/2-federate.md   
+    - principles/3-once-only.md
+    - principles/4-capabilities.md
+    - principles/5-automate.md
+    - principles/6-users.md
+    - principles/7-standards.md
+    - principles/8-transparency.md
+    - principles/9-lawful.md
+    - principles/10-security.md
+
 - section: Capability Model
   pages:
     - capabilityModel/index.md
@@ -13,20 +27,10 @@
     - capabilityModel/Security.md
     - capabilityModel/Trust.md
 
-- section: Principles
-  pages:
-    - principles/0-overview.md
-    - principles/1-management.md
-    - principles/2-once-only.md
-    - principles/3-movement.md
-    - principles/4-readability.md
-    - principles/5-standards.md
-    - principles/6-transparency.md
-    - principles/7-lawful.md
-    - principles/8-security.md
-    - principles/9-users.md
-  children:
-    - section: Other Principles
-      pages:
-        - principles/other_principles/xx.md
-        - unknown
+
+
+  # children:
+  #   - section: Other Principles
+  #     pages:
+  #       - principles/other_principles/xx.md
+  #       - unknown
