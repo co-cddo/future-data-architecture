@@ -44,15 +44,15 @@ The principles should help shape public sector data sharing initiatives that inv
 
 ## Who are the principles for?
 
-The principles are intended to guide decision-makers working with data across the public sector, primarily within central government. This includes:
+The principles are intended to guide strategic decision-makers and enterprise-level leaders working with data across the public sector, including:
 
-- Senior civil servants in Data, Digital, Technology, Architecture, Information, Product and Service roles.
-- Senior civil servants responsible for strategy within public sector organisations and departments who do not have data specific job titles.
+- Leaders in Data, Digital, Technology, Architecture, Information, Product and Service roles.
+- Leaders in strategy-facing roles who do not have data specific job titles.
 - Managers of programmes that involve a significant data sharing component.
-- Third-party suppliers undertaking large scale data-focused initiatives on behalf of a public sector organisation.
+- Third-party contractors undertaking enterprise level data initiatives on behalf of a public sector organisation.
 
-To consider applying these principles in practice, we can think about the responsibilities of three broad groups of data sharing decision-makers. These groups can be loosely mapped to the government's Data Ownership Model and include:
+To consider applying these principles in practice, we can think about the responsibilities of three broad groups of data stakeholders. These groups can be loosely mapped to the government's Data Ownership Model and include:
 
-- **Data providers**: stakeholders who have data assets to share. They share duties with [data owners](https://www.gov.uk/government/publications/essential-shared-data-assets-and-data-ownership-in-government/data-ownership-in-government-html#data-owner-2) or [data stewards](https://www.gov.uk/government/publications/essential-shared-data-assets-and-data-ownership-in-government/data-ownership-in-government-html#data-steward).
+- **Data providers**: stakeholders who have data assets to share. They share duties with [data owners](https://www.gov.uk/government/publications/essential-shared-data-assets-and-data-ownership-in-government/data-ownership-in-government-html#data-owner-2) and [data stewards](https://www.gov.uk/government/publications/essential-shared-data-assets-and-data-ownership-in-government/data-ownership-in-government-html#data-steward).
 - **Data consumers**: stakeholders who would like to use the data assets shared by providers. They share duties with [data custodians](https://www.gov.uk/government/publications/essential-shared-data-assets-and-data-ownership-in-government/data-ownership-in-government-html#data-custodian).
 - **Data sharing enablers**: stakeholders who help deliver data sharing initiatives, but don't provide or consume data themselves. They share duties with [data stewards](https://www.gov.uk/government/publications/essential-shared-data-assets-and-data-ownership-in-government/data-ownership-in-government-html#data-steward).
