@@ -29,3 +29,5 @@ We're currently developing two resources with a focus on data sharing.
 **Contact us directly**. For any enquiries or feedback related to this website or the draft resources, please email the Data Architecture team:
 -  Max Greenwood, Data Sharing Principles Lead [<maxwell.greenwood@dsit.gov.uk>]
 -  Ana Santiago, Data Sharing Capability Model Lead [<ana.santiago@dsit.gov.uk>]
+
+The demo site repository can be [accessed here](https://github.com/co-cddo/future-data-architecture).
