@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div style="background-color:#fff1f2;border:1px solid #ffd1d9;padding:12px;border-radius:4px;color:#7a1f1f;margin-top:2rem;font-weight:600;">
-This demo site contains a draft version of the current Data Sharing resources for internal review. Last updated on 13th January 2026.
+This site contains draft versions of the Future Data Architecture resources. Last updated on 13th January 2026.
 </div>
 
 ## Who are we?
@@ -19,7 +19,7 @@ This demo site contains a draft version of the current Data Sharing resources fo
 We're currently developing two resources with a focus on data sharing.
 
 1. [Data Sharing Principles](principles/0-overview.md): a set of high-level principles for steering data sharing and collaboration between public sector organisations.
-2. [Data Sharing Capability Model](capabilityModel/Channels.md): a framework for mapping data sharing capabilities within organisations.
+2. [Data Sharing Capability Model](capabilityModel/index.md): a framework for mapping data sharing capabilities within organisations.
 
 
 ## How can I get involved in this work?
@@ -30,4 +30,4 @@ We're currently developing two resources with a focus on data sharing.
 -  Max Greenwood, Data Sharing Principles Lead [<maxwell.greenwood@dsit.gov.uk>]
 -  Ana Santiago, Data Sharing Capability Model Lead [<ana.santiago@dsit.gov.uk>]
 
-The demo site repository can be [accessed here](https://github.com/co-cddo/future-data-architecture).
+The demo site repository for Future Data Architecure can be [accessed here](https://github.com/co-cddo/future-data-architecture).
