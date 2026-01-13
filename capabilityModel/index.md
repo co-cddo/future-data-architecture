@@ -2,6 +2,8 @@
 title: Overview
 layout: default
 --- 
+This site contains draft versions of the Future Data Architecture resources.
+
 # Future Data Architecture Capability Model
 
 ## Overview of the Capability Model

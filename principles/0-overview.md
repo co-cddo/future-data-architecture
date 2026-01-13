@@ -3,7 +3,7 @@ title: Overview
 layout: default
 ---
 <div style="background-color:#fff1f2;border:1px solid #ffd1d9;padding:12px;border-radius:4px;color:#7a1f1f;margin-top:2rem;font-weight:600;">
-This demo site contains a draft version of the current Data Sharing resources for internal review.
+This site contains draft versions of the Future Data Architecture resources.
 </div>
 
 
