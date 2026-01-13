@@ -14,7 +14,6 @@ layout: default
 ## Statement
 We make decisions about data based on its value to our organisation as well as its wider public value.
 
-
 ## Why does this matter?
 Data has value. We can take it for granted, but as the public sector modernises, data increasingly underpins the ways that we serve the public. At the core of any data-driven public service is data management: the practice of handling data assets throughout their lifecycle.
 
@@ -26,7 +25,7 @@ Moreover, public sector data also has value beyond the organisation that holds i
 This section will change as data sharing policy and guidance are published.<p>Relevant work in progress:</p><ul><li>Government Digital and Data Framework</li><li>Data Management Professional Organisation (DAMA) Guidance</li><li>Catalogue Guidance and Case Studies</li></ul>
 </div>
 
-Overall, we should take stock of our data management practices, spend time understanding what our data assets can help us achieve, and invest time and resources into data collaborations that will generate public value.
+Overall, we should invest time and resources into building data management understanding, skills and programmes that will help generate public value.
 
 ### Data providers should:
 
