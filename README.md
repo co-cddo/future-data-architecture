@@ -1,10 +1,10 @@
-Future Data Architecture
+GDS Data Architecture
 ==================================
 
-This repository holds documentation on future data architecture.
-The documents are written in markdown and published on the web via Github pages:
+This repository holds documentation on GDS' future data architecture resources.
+The documents are written in markdown and published as a static pages to the following demo site:
 
-  https://supreme-adventure-e2erl4p.pages.github.io/
+  https://data-architecture.datamarketplace.gov.uk/ 
 
 A github action is triggered when code is merged into main, with the result
 that any changes are published on the Github pages.

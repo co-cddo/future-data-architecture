@@ -3,15 +3,11 @@ title: About
 layout: default
 ---
 
-<div style="background-color:#fff1f2;border:1px solid #ffd1d9;padding:12px;border-radius:4px;color:#7a1f1f;margin-top:2rem;font-weight:600;">
-This site contains draft versions of the Future Data Architecture resources. Last updated on 13th January 2026.
-</div>
-
 ## Who are we?
 
 - The Data Architecture team is a central function within GDS’ Data Sharing unit within the Office for the Government's Chief Data Officer (OCDO).
 - Our main goal is to support the delivery of data architecture for robust and ethical data sharing initiatives in the public sector.
-- We work with DDaT professionals to produce data architecture guidance, policy and frameworks for use across government. 
+- We work with GDaD professionals to produce data architecture guidance, policy and frameworks for use across government.
 - Our resources will align with the vision for a modern digital government, the needs of our public sector stakeholders, and the interests of the public.
 
 ## What are we doing?

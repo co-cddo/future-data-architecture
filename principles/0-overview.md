@@ -2,10 +2,6 @@
 title: Overview
 layout: default
 ---
-<div style="background-color:#fff1f2;border:1px solid #ffd1d9;padding:12px;border-radius:4px;color:#7a1f1f;margin-top:2rem;font-weight:600;">
-This site contains draft versions of the Future Data Architecture resources.
-</div>
-
 
 # Introduction
 
@@ -29,30 +25,30 @@ The ten cross-government data sharing principles are:
 
 1. [Treat data as an asset](1-manage.md)
 2. [Federate first](2-federate.md)
-3. [Prepare for Once Only](3-once-only.md)
-4. [Reuse sharing solutions](4-capabilities.md)
-5. [Support automation](5-automate.md)
-6. [Design for users](6-design.md)
-7. [Use common standards for sharing](7-standards.md)
-8. [Share data transparently](8-transparent.md)
-9. [Share data lawfully and ethically](9-lawful.md)
-10. [Secure shared data proportionately](10-security.md)
+3. [Reuse sharing solutions](4-capabilities.md)
+4. [Support automation](5-automate.md)
+5. [Design for users](6-design.md)
+6. [Use common standards for sharing](7-standards.md)
+7. [Share data transparently](8-transparent.md)
+8. [Share data lawfully and ethically](9-lawful.md)
+9. [Secure shared data proportionately](10-security.md)
+
 
 # What is the scope of the principles?
 
-The principles should help shape public sector data sharing initiatives that involve:
+Data sharing is the act of making data available to others. Data can be shared externally to other organisations or internally between different parts of the same organisation. The data sharing principles should help shape public sector initiatives that involve:
 
-- **Operational data access​:** e.g. requesting access to records and receiving event updates.
-- **Analytical data access​:** e.g. collaborating on data analytics and publishing datasets.
-- **Data linkage​:** e.g. checking overlap between lists and connecting datasets with common keys.
-- **Data discovery:​** e.g. publishing metadata and contributing to data platforms.
+- **Operational data access​:** involves accessing individual records for decision-making purposes.
+- **Analytical data access​:** involves publishing and applying analytical tools to bulk data.
+- **Events and updates:** involves receiving and pushing event information between parties.
+- **Data linkage​:** involves connecting datasets with common keys.
+- **Data discovery:​** involves publishing metadata and contributing to data platforms.
 
 # Who are the principles for?
 
 The principles are intended to guide strategic decision-makers and enterprise-level leaders working with data across the public sector, including:
 
 - Leaders in Data, Digital, Technology, Architecture, Information, Product and Service roles.
-- Leaders in strategy-facing roles who do not have data specific job titles.
 - Managers of programmes that involve a significant data sharing component.
 - Third-party contractors undertaking enterprise level data initiatives on behalf of a public sector organisation.
 

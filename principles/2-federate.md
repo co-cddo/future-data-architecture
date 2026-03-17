@@ -2,12 +2,10 @@
 title: 2. Federate first
 layout: default
 ---
-<div class="directional-principle" aria-hidden="false" role="note">
-  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-    <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"></path>
-    <circle cx="12" cy="10" r="3"></circle>
-  </svg>
-  Directional principle
+<div>
+    <strong class="govuk-tag">
+    Directional principle
+    </strong>
 </div>
 
 ## Statement
@@ -23,17 +21,19 @@ Federated approaches have multiple advantages over more centralised or informal 
 
 ## How do we do this?
 
-<div style="background-color:#fff1f2;border:1px solid #ffd1d9;padding:12px;border-radius:4px;color:#7a1f1f;margin-top:2rem;font-weight:600;">
-This section will change as data sharing policy and guidance progress.
-<p>Relevant work in progress:</p><ul><li>Data Sharing Sandbox</li><li>Data Access Patterns</li></ul>
-</div>
-
 Overall, we should make data governance and architecture provisions for federated data sharing solutions.
 
 ### Data providers should:
-
+- Work with data sharing enablers to create technical and governance structures that support federated models of data sharing.
+- Invest time and resources to build capacity for operating new technical and governance structures.
+- Avoid sharing copied data and justify any data copying with a clear business or legal need.
 
 ### Data consumers should:
-
+- Work with data sharing enablers to ensure that suitable analysis and processing capabilities are available through federated solutions.
+- Ensure that code used for processing shared data will be legible for interfaces close to the source data.
+- Use and request access to data sharing services before considering requests for copied data.
 
 ### Data sharing enablers should:
+- Identify modern digital architecture designs and patterns that could support federated data sharing within the context of their work.
+- Work with data providers to create technical and governance structures that support federated models of data sharing.
+- Consider how data analysis and processing capabilities could be deployed close to data sources through APIS or other interfaces.
