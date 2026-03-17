@@ -1,13 +1,11 @@
 ---
-title: 8. Share data transparently
+title: 7. Share data transparently
 layout: default
 ---
-<div class="continuity-principle" aria-hidden="false" role="note">
-<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-  <path d="M21 12a9 9 0 1 1-6.2-8.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-  <path d="M21 3v6h-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-</svg>
-  Continuity principle
+<div>
+    <strong class="govuk-tag">
+    Continuity principle
+    </strong>
 </div>
 
 ## Statement
