@@ -9,19 +9,19 @@ Better collaborative use of data by public sector organisations is central to th
 
 The principles also serve as an update and replacement to the [Data Sharing Governance Framework](https://www.gov.uk/government/publications/data-sharing-governance-framework/data-sharing-governance-framework) which was created in support of the previous government's [National Data Strategy](https://www.gov.uk/government/publications/uk-national-data-strategy/national-data-strategy).
 
-The principles are focused on enabling data sharing between organisations. They do not attempt to fully define how data is used; this is driven by operational needs in different parts of government, alongside a variety of cross-government policy and guidance.
+The principles are focused on enabling data sharing between organisations. They do not attempt to fully define how data is used; this is driven by operational needs in different parts of the public sector, alongside a variety of cross-government policy and guidance.
 
-# What are the principles?
+## What are the principles?
 
-There are ten cross-government data sharing principles. We can consider these principles in two groups of five.
+There are nine cross-government data sharing principles.
 
-The first five are **directional principles**. They are the most novel and specific to public sector data sharing initiatives. These principles align very closely with the priorities of the Blueprint and will require the most additional work to exercise.
+The first four are _directional principles_. They are the most novel and specific to public sector data sharing initiatives. These principles align very closely with the priorities of the Blueprint and will require the most additional work to exercise.
 
-The latter five are **continuity principles**. They are versions of existing technology and data principles tailored to a data sharing context. These principles are as important as the first five and are underpinned by established policy and guidance.
+The latter five are _continuity principles_. They are versions of existing technology and data principles tailored to a data sharing context. These principles are as important as the first four and are underpinned by established policy and guidance.
 
-Underneath each principle is a statement of intent, a brief rationale for its inclusion and suggestions for how to exercise the principle in practice.
+Underneath each principle is a statement of intent, a short justification for its inclusion and suggested ways we can exercise the principle in practice.
 
-The ten cross-government data sharing principles are:
+The nine cross-government data sharing principles are:
 
 1. [Treat data as an asset](1-manage.md)
 2. [Federate first](2-federate.md)
