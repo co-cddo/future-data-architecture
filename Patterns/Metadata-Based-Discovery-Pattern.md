@@ -9,6 +9,7 @@
 
 ## Executive summary
 
+
 Government data is published by many autonomous organisations through catalogues, websites, documentation and machine-readable specifications. A person or system looking for relevant data may not know which organisation holds it, what terminology that organisation uses, or whether the source is suitable for the intended purpose.
 
 This pattern establishes a common metadata discovery capability without requiring publishers to move their underlying data or give up ownership of their source systems. Metadata is information that describes a data set or service, such as its title, purpose, publisher, subject, access route and update status. The capability collects this descriptive information, maps it to a shared record structure, optionally enriches sparse descriptions, and makes the combined records searchable through words and meaning.
